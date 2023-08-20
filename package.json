@@ -1,12 +1,14 @@
 {
   "name": "practice-cli",
-  "bin" :{
+  "bin": {
     "practice": "./index.js "
   },
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "link-cli": "yarn --global link practice-cli",
+    "unlink-and-link-cli": "yarn --global unlink practice-cli && yarn --global link practice-cli",
     "dev": "tsc -w"
   },
   "keywords": [],

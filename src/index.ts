@@ -1,3 +1,3 @@
-const hello = () => {
-    const name = "World";
-};
+#!/usr/bin/env node
+
+const hello = (message: string) => {};
