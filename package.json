@@ -2,13 +2,11 @@
   "name": "practice-cli",
   "version": "0.0.0",
   "bin": {
-    "practice": "./dist/index.js "
+    "practice-cli": "./dist/index.js"
   },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "first-link-cli": "yarn --global link practice-cli",
-    "link-cli": "yarn --global unlink practice-cli && chmod +x ./dist/index.js && yarn --global link",
     "dev": "tsc -w"
   },
   "keywords": [],
