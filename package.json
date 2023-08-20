@@ -1,18 +1,18 @@
 {
   "name": "practice-cli",
+  "version": "0.0.0",
   "bin": {
-    "practice": "./index.js "
+    "practice": "./dist/index.js "
   },
-  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "link-cli": "yarn --global link practice-cli",
-    "unlink-and-link-cli": "yarn --global unlink practice-cli && yarn --global link practice-cli",
+    "first-link-cli": "yarn --global link practice-cli",
+    "link-cli": "yarn --global unlink practice-cli && chmod +x ./dist/index.js && yarn --global link",
     "dev": "tsc -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alberto Benatti",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.5.1",
