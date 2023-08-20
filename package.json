@@ -7,8 +7,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc -w",
-    "link": "npm install -g"
+    "link-cli": "(yarn --global unlink practice-cli || true) && chmod +x ./dist/index.js && yarn --global link",
+    "link": "npm install -g",
+    "dev": "tsc -w"
   },
   "keywords": [],
   "author": "Alberto Benatti",
