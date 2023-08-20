@@ -7,7 +7,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "link": "npm install -g"
   },
   "keywords": [],
   "author": "Alberto Benatti",
