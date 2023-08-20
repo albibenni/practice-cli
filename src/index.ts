@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const hello = (message: string) => {
-  console.log("🚀 ~ file: index.ts:4 ~ hello ~ message:", message);
-};
+import { Command } from "commander";
 
-console.log("wow");
+const program = new Command();
