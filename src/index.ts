@@ -1,1 +1,3 @@
-const hello = () => {};
+const hello = () => {
+    const name = "World";
+};
